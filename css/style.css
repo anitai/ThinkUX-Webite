@@ -61,28 +61,37 @@ a:focus{
 	text-decoration: none;
 }
 #home{
-	background: url(../img/bg1.jpg);
+	background: url(../img/Jhb_bg_XXXLarge.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;	
-	padding-top: 60px;
+	min-height: 708px;	
+	padding-top: 0px; /* was 60 moved into overlay */
 	color: #ffffff;
 }
+.overlay{
+    background: rgba(40,47,53,0.42);
+    overflow: hidden;
+    min-height: 708px;
+    height: 100%;
+    z-index: 2;
+    padding-top:60px;
+}
+
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
 	border: 1px solid #c59a6d;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 40px;
 	color: #ffffff;
 	cursor: pointer;
 }
 .content{
-	padding-top: 16%;
+	padding-top: 25%;
 }
 .header-text.btn{
 	border: 1px solid #ffffff;
