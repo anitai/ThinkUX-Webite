@@ -24,7 +24,7 @@ h2{
 	font-size: 20px;
 }
 h3{
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 	font-weight: 100;
 	line-height: 26px;
@@ -71,8 +71,8 @@ a:focus{
 	padding-top: 0px; /* was 60 moved into overlay */
 	color: #ffffff;
 }
-.overlay{
-    background: rgba(40,47,53,0.42);
+#home .overlay{
+    background: rgba(40,47,53,0.52);
     overflow: hidden;
     min-height: 708px;
     height: 100%;
@@ -86,7 +86,7 @@ a:focus{
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
-	margin-top: 40px;
+	margin-top: 10px;
 	color: #ffffff;
 	cursor: pointer;
 }
@@ -463,7 +463,7 @@ ul.clients li{
 }
 
 #testimonials {
-	background: url(../img/bg4.jpg);
+	background: url(../img/contact2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -493,9 +493,33 @@ ul.clients li{
 }
 
 #contact{
-	background: #282f35;
-	padding: 100px 0;
+	/*background: #282f35;	*/
+	background: url(../img/contact_M.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	text-align: center;	
 	color: #ffffff;
+}
+
+#contact .overlay{
+    background: rgba(40,47,53,0.62);
+    overflow: hidden;
+    /*min-height: 708px;*/
+    height: 100%;
+    z-index: 2;
+    padding: 100px 0;
+}
+
+#contact a{
+	color: #ffffff;
+	font-size: 16px;
+}
+
+#contact a:hover{
+	color: #c59a6d;
+	font-size: 16px;
 }
 
 ul.social li{
