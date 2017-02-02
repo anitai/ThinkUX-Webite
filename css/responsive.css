@@ -12,7 +12,6 @@ padding: 15% 0;
 #home{
 	background: url(../img/Jhb_bg_S.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	min-height: 500px;
 }
 #home .overlay{
